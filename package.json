@@ -1,0 +1,17 @@
+{
+  "name": "meltwater-assessment",
+  "version": "1.0.0",
+  "description": "Meltwater technical exercise: redact and unredact classified document text",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
